@@ -1,0 +1,23 @@
+
+Sample Data Used in the System
+
+Clients:
+1001, Rachel Watts
+1002, Kiannah Davy
+
+Providers:
+2001, Lindsey Bruscia, Esthetician, Available Monday
+2002, Nora Szabo, Nurse Injector, Available Thursday
+
+Services:
+3001, HydraFacial, Requires Esthetician
+3002, Botox Consultation, Requires Nurse Injector
+
+Appointments:
+Valid test appointment:
+Rachel Watts with Lindsey Bruscia for HydraFacial on Monday at 9:00 AM
+
+Invalid test appointment:
+Kiannah Davy with Lindsey Bruscia for Botox Consultation on Monday at 3:00 PM
+This should fail because Lindsey is not certified as a Nurse Injector.
+
